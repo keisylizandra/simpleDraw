@@ -52,6 +52,16 @@ public class MyPanel extends JPanel {
 
         g2.setColor(Color.MAGENTA);
         g2.drawLine(100, 100, 700, 600);
+
+        g2.fillRect(600, 100, 100, 100);
+
+        g2.setColor(Color.blue);
+        g2.fillRoundRect(400,100,100,100,50,50);
+
+        g2.setColor(new Color(128,0,192));
+        g2.fillOval(100,400,100,100);
+
+        g2.drawImage(logo, 250,400,null);
     }
 
 }

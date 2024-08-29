@@ -14,5 +14,7 @@ public class SimpleDraw
         frame.add(panel);
         frame.pack();
         frame.setVisible(true);
+
+
     }
 }
